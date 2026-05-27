@@ -1,0 +1,74 @@
+.proyectos {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.seccion-label {
+  font-size: 0.75rem;
+  color: #7c6af7;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.proyectos h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.proyecto-card {
+  background: #16161f;
+  border: 1px solid #1e1e2a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: border-color 0.2s;
+}
+
+.proyecto-card:hover {
+  border-color: #7c6af7;
+}
+
+.proyecto-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.proyecto-card p {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.tech-tag {
+  background: #1e1e2a;
+  color: #a593ff;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.proyecto-card a {
+  color: #7c6af7;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.proyecto-card a:hover {
+  color: #a593ff;
+}

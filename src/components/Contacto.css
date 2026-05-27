@@ -1,0 +1,31 @@
+.contacto {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contacto h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.contacto p {
+  color: #888;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.contacto a {
+  background: #7c6af7;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.contacto a:hover {
+  background: #a593ff;
+}

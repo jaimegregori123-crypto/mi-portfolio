@@ -1,0 +1,25 @@
+.sobre-mi {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.sobre-mi h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.sobre-mi p {
+  color: #888;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.seccion-label {
+  font-size: 0.75rem;
+  color: #7c6af7 !important;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
