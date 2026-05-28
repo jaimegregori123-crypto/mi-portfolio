@@ -1,0 +1,49 @@
+.tecnologias-seccion {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.tecnologias-seccion h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.tecnologias-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.tech-card {
+  background: #16161f;
+  border: 1px solid #1e1e2a;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  transition: all 0.2s;
+  cursor: default;
+}
+
+.tech-card:hover {
+  border-color: #7c6af7;
+  transform: translateY(-3px);
+}
+
+.tech-icono {
+  font-size: 3rem;
+  transition: filter 0.2s;
+}
+
+.tech-nombre {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.tech-card:hover .tech-icono {
+  filter: brightness(1.1) drop-shadow(0 0 3px currentColor);
+}

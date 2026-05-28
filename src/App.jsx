@@ -30,6 +30,8 @@ import Hero from "./components/Hero";
 import Proyectos from "./components/Proyectos";
 import Contacto from "./components/Contacto";
 import SobreMi from "./components/SobreMi";
+import Tecnologias from "./components/Tecnologias";
+import Footer from "./components/Footer";
 
 function App() {
   const [coords, setCoords] = useState({ x: 0, y: 0 });
@@ -82,8 +84,10 @@ function App() {
         descripcion="Estudiante de DAM apasionado por el desarrollo web"
       />
       <SobreMi />
+      <Tecnologias />
       <Proyectos />
       <Contacto />
+      <Footer />
     </div>
   );
 }

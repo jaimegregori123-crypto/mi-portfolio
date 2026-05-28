@@ -45,7 +45,7 @@ body {
   z-index: 1;
   will-change: transform;
   /* Importante: Evita que CSS intente animar el cambio de posición para que no choque con JS */
-  transition: none;
+  transition: transform 0.05s ease-out;
 }
 
 @media (max-width: 1024px) {
